@@ -1,10 +1,10 @@
 # meteor-slack-invite
 
-Add people to your slack team by sending auto-invites
+Get people signed up into your slack team the meteor way.
 
 ### basic usage
 
-This package esposes a text input field {{>slackInviteEmail}} that your visitors can use to autosignup into a slack team of your choice. (You need to provide the teams autoToken)
+The package exposes a text input {{>slackInviteEmail}} where anyone can enter their email to autosignup into a slack team of your choice.
 
 ### setup
 
@@ -21,3 +21,4 @@ This package esposes a text input field {{>slackInviteEmail}} that your visitors
 
 3. add package to your meteor project `meteor add herrhelms:meteor-slack-invite`
 4. run your project with `meteor --settings settings.json` (optionally with port `--port XXXX`)
+
