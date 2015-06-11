@@ -1,0 +1,11 @@
+<template name="_slack_signup">
+    <div class="slack-wrapper">
+        <input type="text" autofocus placeholder="Join the team and enter your email" class="slack-form"/>
+        {{#if hasSlackInfo}}
+            <div class="slack-info"><strong>{{slackInfo.online}}</strong> of <strong>{{slackInfo.registered}}</strong> registered users currently online.</div>
+        {{/if}}
+        {{#if hasSlackMessage}}
+            <div class="slack-message">{{{slackMessage}}}</div>
+        {{/if}}
+    </div>
+</template>

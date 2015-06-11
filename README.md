@@ -4,7 +4,7 @@ Get people signed up into your slack team the meteor way.
 
 ### basic usage
 
-The package exposes a text input {{>slackInviteEmail}} where anyone can enter their email to autosignup into a slack team of your choice.
+The package exposes a text input {{>slackInviteInput}} where anyone can enter their email to autosignup into a slack team of your choice.
 
 ### setup
 
@@ -14,6 +14,7 @@ The package exposes a text input {{>slackInviteEmail}} where anyone can enter th
 ```JSON
 {
     "private": {
+        "slackDomain": "YOURDOMAIN",        // without the .slack.com
         "slackAuthToken": "YOURTOKENHERE"
     }
 }

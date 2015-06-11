@@ -1,0 +1,28 @@
+.slack-wrapper {
+    text-align: center;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.slack-form {
+    min-width: 320px;
+    padding: 6px 16px;
+    font-size: 16px;
+    outline: none;
+    border-style: solid;
+    border-color: #BABABA;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.slack-form:focus {
+    border: 2px solid #5cb85c
+}
+.slack-info,
+.slack-message {
+    padding: 6px 16px;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif
+    font-size: 13px;
+}
+
+
